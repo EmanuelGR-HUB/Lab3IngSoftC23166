@@ -1,0 +1,7 @@
+C:\Users\emanu\OneDrive\Escritorio\Lab3IngSoftC23166\Mi primer proyecto\backend-lab\backend-lab\obj\Release\net7.0\backend-lab.csproj.AssemblyReference.cache
+C:\Users\emanu\OneDrive\Escritorio\Lab3IngSoftC23166\Mi primer proyecto\backend-lab\backend-lab\obj\Release\net7.0\backend-lab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emanu\OneDrive\Escritorio\Lab3IngSoftC23166\Mi primer proyecto\backend-lab\backend-lab\obj\Release\net7.0\backend-lab.AssemblyInfoInputs.cache
+C:\Users\emanu\OneDrive\Escritorio\Lab3IngSoftC23166\Mi primer proyecto\backend-lab\backend-lab\obj\Release\net7.0\backend-lab.AssemblyInfo.cs
+C:\Users\emanu\OneDrive\Escritorio\Lab3IngSoftC23166\Mi primer proyecto\backend-lab\backend-lab\obj\Release\net7.0\backend-lab.csproj.CoreCompileInputs.cache
+C:\Users\emanu\OneDrive\Escritorio\Lab3IngSoftC23166\Mi primer proyecto\backend-lab\backend-lab\obj\Release\net7.0\backend-lab.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\emanu\OneDrive\Escritorio\Lab3IngSoftC23166\Mi primer proyecto\backend-lab\backend-lab\obj\Release\net7.0\backend-lab.MvcApplicationPartsAssemblyInfo.cache
