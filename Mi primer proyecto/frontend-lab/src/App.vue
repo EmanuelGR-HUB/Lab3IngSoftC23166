@@ -1,5 +1,5 @@
-<template>
-  <ListaPaises/>
+<!-- <template>
+  <router-view></router-view><ListaPaises/>
 </template>
 
 <script>
@@ -12,5 +12,13 @@ export default {
   },
 };
 </script>
+
+<style></style> -->
+
+<template>
+  <router-view></router-view>
+</template>
+
+<script></script>
 
 <style></style>
