@@ -44,6 +44,23 @@ namespace backend_lab.Handlers
             }
             return paises;
         }
+
+        public bool CrearPais(PaisModel pais) 
+        {
+            var consulta = @"INSERT INTO [dbo].[Pais] ([Nombre], [Idioma], [Continente])
+                                                VALUES(@Nombre, @Idioma, @Continente) ";
+            var comandoParaConsultas = new SqlCommand(consulta, _conexion);
+
+            comandoParaConsultas.Parameters.AddWithValue("@Nombre", pais.Nombre);
+            comandoParaConsultas.Parameters.AddWithValue("@Idioma", pais.Idioma);
+            comandoParaConsultas.Parameters.AddWithValue("@Continente", pais.Continente);
+
+            _conexion.Open();
+            bool exito = comandoParaConsultas.ExecuteNonQuery() >= 1;
+            _conexion.Close();
+
+            return exito;
+        }
     }
 
 }
