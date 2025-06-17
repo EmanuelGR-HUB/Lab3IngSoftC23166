@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emanu\\OneDrive\\Escritorio\\Lab3IngSoftC23166\\Mi primer proyecto\\backend-lab\\backend-lab\\backend-lab.csproj": {}
+    "C:\\Users\\emanu\\source\\repos\\Lab3IngSoftC23166\\Mi primer proyecto\\backend-lab\\backend-lab\\backend-lab.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emanu\\OneDrive\\Escritorio\\Lab3IngSoftC23166\\Mi primer proyecto\\backend-lab\\backend-lab\\backend-lab.csproj": {
+    "C:\\Users\\emanu\\source\\repos\\Lab3IngSoftC23166\\Mi primer proyecto\\backend-lab\\backend-lab\\backend-lab.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emanu\\OneDrive\\Escritorio\\Lab3IngSoftC23166\\Mi primer proyecto\\backend-lab\\backend-lab\\backend-lab.csproj",
+        "projectUniqueName": "C:\\Users\\emanu\\source\\repos\\Lab3IngSoftC23166\\Mi primer proyecto\\backend-lab\\backend-lab\\backend-lab.csproj",
         "projectName": "backend-lab",
-        "projectPath": "C:\\Users\\emanu\\OneDrive\\Escritorio\\Lab3IngSoftC23166\\Mi primer proyecto\\backend-lab\\backend-lab\\backend-lab.csproj",
+        "projectPath": "C:\\Users\\emanu\\source\\repos\\Lab3IngSoftC23166\\Mi primer proyecto\\backend-lab\\backend-lab\\backend-lab.csproj",
         "packagesPath": "C:\\Users\\emanu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emanu\\OneDrive\\Escritorio\\Lab3IngSoftC23166\\Mi primer proyecto\\backend-lab\\backend-lab\\obj\\",
+        "outputPath": "C:\\Users\\emanu\\source\\repos\\Lab3IngSoftC23166\\Mi primer proyecto\\backend-lab\\backend-lab\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\emanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,7 +38,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net7.0": {
@@ -76,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

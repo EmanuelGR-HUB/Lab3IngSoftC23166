@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\emanu\\source\\repos\\Lab3IngSoftC23166\\Mi primer proyecto\\backend-lab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A9FEDC-7279-497D-B433-497DED54A500}|backend-lab\\backend-lab.csproj|c:\\users\\emanu\\source\\repos\\lab3ingsoftc23166\\mi primer proyecto\\backend-lab\\backend-lab\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F8A9FEDC-7279-497D-B433-497DED54A500}|backend-lab\\backend-lab.csproj|solutionrelative:backend-lab\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 152,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\emanu\\source\\repos\\Lab3IngSoftC23166\\Mi primer proyecto\\backend-lab\\backend-lab\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "backend-lab\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\emanu\\source\\repos\\Lab3IngSoftC23166\\Mi primer proyecto\\backend-lab\\backend-lab\\Properties\\launchSettings.json",
+              "RelativeToolTip": "backend-lab\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBoAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-17T20:03:22.271Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 405,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 405,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

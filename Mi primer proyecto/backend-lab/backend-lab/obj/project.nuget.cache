@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nRXNQCcSmG3pfB791dIYrCp2k7zOpBR3bR1XlMfgpKK2TSoresJf9rdInaLLQUKdSRczA+wVix/HyckoLiIqag==",
+  "dgSpecHash": "4Dph1Akzwu0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\emanu\\OneDrive\\Escritorio\\Lab3IngSoftC23166\\Mi primer proyecto\\backend-lab\\backend-lab\\backend-lab.csproj",
+  "projectFilePath": "C:\\Users\\emanu\\source\\repos\\Lab3IngSoftC23166\\Mi primer proyecto\\backend-lab\\backend-lab\\backend-lab.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emanu\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\emanu\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -55,8 +55,10 @@
     {
       "code": "NU1701",
       "level": "Warning",
-      "warningLevel": 1,
       "message": "Package 'Microsoft.Data.SqlClient 6.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\emanu\\source\\repos\\Lab3IngSoftC23166\\Mi primer proyecto\\backend-lab\\backend-lab\\backend-lab.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\emanu\\source\\repos\\Lab3IngSoftC23166\\Mi primer proyecto\\backend-lab\\backend-lab\\backend-lab.csproj",
       "libraryId": "Microsoft.Data.SqlClient",
       "targetGraphs": [
         "net7.0"
@@ -65,8 +67,10 @@
     {
       "code": "NU1701",
       "level": "Warning",
-      "warningLevel": 1,
       "message": "Package 'Microsoft.Data.SqlClient.SNI 6.0.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\emanu\\source\\repos\\Lab3IngSoftC23166\\Mi primer proyecto\\backend-lab\\backend-lab\\backend-lab.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\emanu\\source\\repos\\Lab3IngSoftC23166\\Mi primer proyecto\\backend-lab\\backend-lab\\backend-lab.csproj",
       "libraryId": "Microsoft.Data.SqlClient.SNI",
       "targetGraphs": [
         "net7.0"

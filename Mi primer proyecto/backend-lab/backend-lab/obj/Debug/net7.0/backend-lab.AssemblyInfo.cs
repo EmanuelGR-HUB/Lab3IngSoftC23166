@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("backend-lab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd460f60705a9e69c4305abe4d66dccc4d32fe49")]
 [assembly: System.Reflection.AssemblyProductAttribute("backend-lab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("backend-lab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -9,7 +9,7 @@
             <input 
                 v-model="datosFormulario.nombre" 
                 type="text" 
-                id="name" 
+                id="nombre" 
                 class="form-control" 
                 required 
                 />

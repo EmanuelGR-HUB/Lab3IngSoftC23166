@@ -1,0 +1,232 @@
+{
+  "id": "0d654c64-492c-4eed-8e60-69fe453939f6",
+  "version": "2.0",
+  "name": "UITestLaboratorio7",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "3b0bd54f-0c70-4f4a-ad13-02226c3d1787",
+    "name": "PruebaUIUno",
+    "commands": [{
+      "id": "c7b38ff8-75c4-4e51-9028-d934f0ae5080",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "edf2dbf2-615d-4a48-965a-4113fa54c3cc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b79a5b32-5921-4c60-b767-1debe07f8781",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=tr:nth-child(1) .btn-danger",
+      "targets": [
+        ["css=tr:nth-child(1) .btn-danger", "css:finder"],
+        ["xpath=//div[@id='app']/div/table/tbody/tr/td[4]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Eliminar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a9a2dae-9702-4912-ac2d-406a9d8641a6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-outline-secondary",
+      "targets": [
+        ["css=.btn-outline-secondary", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/a/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Agregar país')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "83b55e0e-44da-458d-b23d-6ffe8ee45d33",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-outline-secondary",
+      "targets": [
+        ["css=.btn-outline-secondary", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/a/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Agregar país')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b56314bd-666e-46c3-817a-bac049a6ef82",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Guatemala"
+    }, {
+      "id": "6e99b799-b33e-4660-a59a-cd235a574fe2",
+      "comment": "",
+      "command": "verifySelectedValue",
+      "target": "id=continente",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef6705b3-2af8-4eba-a51e-f3ee880a8fd8",
+      "comment": "",
+      "command": "click",
+      "target": "id=continente",
+      "targets": [
+        ["id=continente", "id"],
+        ["css=#continente", "css:finder"],
+        ["xpath=//select[@id='continente']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/form/div[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "867bfe8d-accd-4d81-b96b-4314aad9cf7e",
+      "comment": "",
+      "command": "select",
+      "target": "id=continente",
+      "targets": [],
+      "value": "label=América"
+    }, {
+      "id": "6d58efc7-bc1c-49b0-9e0d-7bdd0bb120e2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=idioma",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2e613fb-821b-44c5-873a-ecd6debd5504",
+      "comment": "",
+      "command": "type",
+      "target": "id=idioma",
+      "targets": [
+        ["id=idioma", "id"],
+        ["css=#idioma", "css:finder"],
+        ["xpath=//input[@id='idioma']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Español"
+    }, {
+      "id": "145ab7c8-5406-4b13-960f-249545dd8732",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/form/div[4]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Guardar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6aa79cc-3321-498d-9c6b-415c30e06f67",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "frontend-lab",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1214290-3694-4ea0-982c-699edbc8a4db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/form/div[4]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Guardar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea20754e-7e05-4204-9049-d918f331b63f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=tr:nth-child(1) .btn-danger",
+      "targets": [
+        ["css=tr:nth-child(1) .btn-danger", "css:finder"],
+        ["xpath=//div[@id='app']/div/table/tbody/tr/td[4]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Eliminar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c5c1d03-265e-4a01-a54b-72245a930d1f",
+      "comment": "",
+      "command": "//verifySelectedLabel",
+      "target": "css=tr:nth-child(1) .btn-danger",
+      "targets": [],
+      "value": "Eliminar"
+    }, {
+      "id": "66b59b96-29b1-4a15-bbed-83a85b5b7eef",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .btn-danger",
+      "targets": [
+        ["css=tr:nth-child(1) .btn-danger", "css:finder"],
+        ["xpath=//div[@id='app']/div/table/tbody/tr/td[4]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Eliminar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "661a7d9b-acfb-4ad9-9b15-929a85d999e6",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(1) > td:nth-child(1)",
+      "targets": [
+        ["css=tr:nth-child(1) > td:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='app']/div/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td", "xpath:position"],
+        ["xpath=//td[contains(.,'Argentina')]", "xpath:innerText"]
+      ],
+      "value": "Argentina"
+    }, {
+      "id": "24f5a11e-076f-466c-9fb8-105b587ff03b",
+      "comment": "",
+      "command": "assertNotText",
+      "target": "css=.container",
+      "targets": [
+        ["css=.container", "css:finder"],
+        ["xpath=//div[@id='app']/div", "xpath:idRelative"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": "Lista de países\\nAgregar país\\nNombre Continente Idioma Acciones\\nArgentina América Español EditarEliminar\\nCanada América Inglés/Frances EditarEliminar\\nFrancia Europa Frances EditarEliminar\\nEspaña Europa Español EditarEliminar\\nPanamá América Español EditarEliminar\\nChina Asia Mandarin EditarEliminar\\nJapón Asia Japonés EditarEliminar\\nDinamarca Europa Danés EditarEliminar\\nCorea del Sur Asia Coreano EditarEliminar\\nColombia América Español EditarEliminar\\nNicaragua América Español EditarEliminar\\nGuatemala África Español EditarEliminar\\nGuatemala América Español EditarEliminar\\nGuatemala América Español EditarEliminar\\nGuatemala América Español EditarEliminar\\nGuatemala América Español EditarEliminar\\nGuatemala América Español EditarEliminar\\nGuatemala América Español EditarEliminar\\nGuatemala América Español EditarEliminar\\nGuatemala América Español EditarEliminar\\nGuatemala América Español EditarEliminar\\nGuatemala América Español EditarEliminar\\nGuatemala América Español EditarEliminar\\nGuatemala América Español EditarEliminar\\nGuatemala América Español EditarEliminar\\nGuatemala América Español EditarEliminar\\nGuatemala América Español EditarEliminar\\nGuatemala América Español EditarEliminar\\nGuatemala América Español EditarEliminar\\nGuatemala América Español EditarEliminar\\nGuatemala América Español EditarEliminar\\nGuatemala América Español EditarEliminar\\nGuatemala América Español EditarEliminar\\nGuatemala América Español EditarEliminar\\nGuatemala América Español EditarEliminar\\nGuatemala América Español EditarEliminar\\nGuatemala América Español EditarEliminar\\nGuatemala América Español EditarEliminar\\nGuatemala América Español EditarEliminar\\nGuatemala América Español EditarEliminar"
+    }, {
+      "id": "72a5b594-4464-408b-a915-6d20c1410f48",
+      "comment": "",
+      "command": "assertEditable",
+      "target": "css=tr:nth-child(1) .btn-danger",
+      "targets": [
+        ["css=tr:nth-child(1) .btn-danger", "css:finder"],
+        ["xpath=//div[@id='app']/div/table/tbody/tr/td[4]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Eliminar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "641b19ab-48a3-4572-a1f1-cd20e80a4b89",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3b0bd54f-0c70-4f4a-ad13-02226c3d1787"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
